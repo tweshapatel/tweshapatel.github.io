@@ -10,7 +10,11 @@
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#e6e1d8">
 <script>(function(){var d=document.documentElement;d.classList.add('no-headshot');var i=new Image();i.onload=function(){d.classList.remove('no-headshot')};i.src='assets/img/headshot.jpg';})();</script>
-<style>.no-headshot .homephoto{display:none}.ph-frame .headshot{display:block;width:100%;height:100%;object-fit:cover}</style>
+<style>.no-headshot .homephoto{display:none}.ph-frame .headshot{display:block;width:100%;height:100%;object-fit:cover}.ph-frame{border:0!important;padding:0!important;overflow:hidden;box-shadow:0 22px 34px -24px rgba(0,0,0,.5)}
+.home .homephoto{width:100% !important;max-width:540px;justify-self:end;align-self:start;margin:6px 0 0}
+.home .homephoto .ph-frame{aspect-ratio:4/5;background:none}
+@media (min-width:901px){.home{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) !important;gap:56px !important}}
+@media (max-width:900px){.home .homephoto{justify-self:stretch;max-width:520px;margin:32px 0 0}}</style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Inter:wght@400;500;600&amp;family=Caveat:wght@500;600&amp;display=swap" rel="stylesheet">
 <style>
