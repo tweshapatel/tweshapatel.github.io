@@ -522,7 +522,7 @@ img.portrait{aspect-ratio:4/5}
 .n-hero{grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) !important;gap:48px !important}
 .selfie-img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:60% 40%;background:#f4f1ea;padding:10px;transform:rotate(2deg);box-shadow:0 24px 40px -26px rgba(0,0,0,.45)}
 @media (max-width:640px){.n-hero{grid-template-columns:1fr !important;gap:36px !important}.selfie-img{max-width:420px}}
-@media (max-width:640px){.ncard .dot{width:56px;height:56px;top:-22px;right:-8px}.n-links a{min-height:44px;display:inline-flex;align-items:center}}</style>
+.navlinks .nb.aboutme{margin:0;font-size:18px;font-weight:700;border:1.5px solid #1a1a1a;border-radius:999px;padding:0 24px;min-height:46px;display:inline-flex;align-items:center;text-decoration:none;color:#1a1a1a;transition:background-color .16s,color .16s,border-color .16s}.navlinks .nb.aboutme::before{display:none}.navlinks .nb.aboutme:hover{background:#e0402a;border-color:#e0402a;color:#fff}.sitelink{display:inline-flex;align-items:center;gap:10px;margin-top:6px;min-height:44px;color:#ff6a4d;font-weight:700;font-size:18px;white-space:nowrap;text-decoration:underline;text-underline-offset:.22em;text-decoration-thickness:2px}.sitelink:hover{color:#fff}@media (max-width:700px){.nav-in{padding:10px 20px !important;gap:8px !important}.navlinks{overflow:visible !important}}@media (max-width:640px){.ncard .dot{width:56px;height:56px;top:-22px;right:-8px}.n-links a{min-height:44px;display:inline-flex;align-items:center}}</style>
 <style>html,body{background:#e6e1d8}</style>
 </head>
 <body>
@@ -532,7 +532,7 @@ img.portrait{aspect-ratio:4/5}
 <div class="root">
 <header class="nav"><div class="wrap nav-in">
 <span class="brand"><span class="d" aria-hidden="true"></span>For Neil, From Twesha Patel</span>
-<nav class="navlinks" aria-label="Quick actions"><a class="nb" href="../">About Me</a></nav>
+<nav class="navlinks" aria-label="Quick actions"><a class="nb aboutme" href="https://tweshapatel.github.io">About Me</a></nav>
 </div></header>
 <main class="wrap" style="padding-bottom:40px">
 <section class="n-hero">
@@ -562,7 +562,7 @@ img.portrait{aspect-ratio:4/5}
 <p class="w" style="color:#e6e1d8">Account Project Manager at Sigma Connectivity, embedded at Meta Reality Labs. Engineer by training.</p>
 <div class="mini"><div><div class="sn">$33M</div><div class="sl">Meta portfolio</div></div><div><div class="sn">50+</div><div class="sl">Meta points of contact</div></div><div><div class="sn">90+</div><div class="sl">Engineers staffed</div></div><div><div class="sn">$950K</div><div class="sl">Downtime eliminated</div></div></div>
 <div class="logos" style="border-color:rgba(230,225,216,.2);gap:26px;margin-top:4px"><img src="../assets/img/logo-meta-light.png" alt="Meta" style="height:20px"><img src="../assets/img/logo-sigma-light.png" alt="Sigma Connectivity" style="height:24px"><img src="../assets/img/logo-solar-light.png" alt="Solar Turbines" style="height:22px"></div>
-<button type="button" class="linkbtn" onClick="{{pAbout}}">See More About Me <span aria-hidden="true">→</span></button>
+<a class="sitelink" href="https://tweshapatel.github.io">tweshapatel.github.io <span aria-hidden="true">→</span></a>
 </div>
 </section>
 <section class="n-foot">
